@@ -7,6 +7,11 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 #endif
 
+public enum AmplitudeServerZone {
+    US,
+    EU
+}
+
 public class Amplitude {
 	private static readonly string UnityLibraryName = "amplitude-unity";
 	private static readonly string UnityLibraryVersion = "2.6.0";
